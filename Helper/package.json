@@ -1,0 +1,17 @@
+{
+  "name": "@shamala/helpercci",
+  "version": "1.2.0",
+  "description": "Helper functions to support methods",
+  "exports": {
+    "./printMatrix.js": "./printMatrix.js",
+    "./isSubstring.js": "./isSubstring.js"
+  },
+  "author": "Shamala Mallya",
+  "license": "ISC",
+  "keywords": [
+    "shamala",
+    "mallya",
+    "printMatrix",
+    "helpercci"
+  ]
+}
