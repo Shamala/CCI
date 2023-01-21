@@ -41,5 +41,12 @@ class LinkedList {
     }
     return count;
   }
+  findNode(value) {
+    let node = this.head;
+    while (node && node.value != value) {
+      node = node.next;
+    }
+    return node;
+  }
 }
 export { LinkedList };
